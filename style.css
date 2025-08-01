@@ -8,9 +8,7 @@
     padding: 0;
 }
 
-body {
-    
-}
+body {}
 
 a {
     color: #ffff;
@@ -117,49 +115,6 @@ a:hover {
     transition: 0.3s;
 }
 
-@media (max-width: 999px) {
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .nav-list {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background: #1B004D;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-    }
-
-    .nav-list li {
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    .mobile-menu {
-        display: block;
-    }
-
-    .titulo {
-        font-size: 20px;
-    }
-
-    .textomenor {
-        font-size: 13px;
-    }
-
-    .barra {
-        width: 217px;
-    }
-
-}
-
 
 .nav-list.active {
     transform: translateX(0);
@@ -207,7 +162,7 @@ a:hover {
 .logo-imagem .imagem-logo {
     width: 400px;
     margin-left: 160px;
-        position: relative;
+    position: relative;
     bottom: 90px;
 }
 
@@ -219,4 +174,59 @@ a:hover {
     color: #ffff;
     max-width: 817px;
     max-height: 532px;
+}
+
+@media (max-width: 999px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #1B004D;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .textomenor {
+        font-size: 13px;
+    }
+
+    .barra {
+        width: 217px;
+    }
+
+    .logo-imagem .imagem-logo {
+        margin-left: 100px;
+    }
+
+    p{
+     text-align: justify;   
+    }
+
+    .imagem1 {
+        display: none;
+    }
+
 }
