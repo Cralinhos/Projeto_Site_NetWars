@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+body {
+    
+}
+
 a {
     color: #ffff;
     text-decoration: none;
@@ -18,11 +22,11 @@ a:hover {
     opacity: 0.7;
 }
 
-.logo img {
+.logo .logo-img {
     width: 150px;
 }
 
-nav {
+.menu {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -146,7 +150,7 @@ main {
         font-size: 20px;
     }
 
-    .sub {
+    .textomenor {
         font-size: 13px;
     }
 
@@ -175,13 +179,44 @@ main {
 }
 
 .mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
+    transform: rotate(-45deg) translate(-8px, 8px);
 }
 
 .mobile-menu.active .line2 {
-  opacity: 0;
+    opacity: 0;
 }
 
 .mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.explicacao-jogo {
+    background: #06001f no-repeat center center;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.imagem1 .aimagem {
+    border-radius: 4%;
+    width: 601px;
+}
+
+.logo-imagem .imagem-logo {
+    width: 400px;
+    margin-left: 160px;
+        position: relative;
+    bottom: 90px;
+}
+
+.texto-logo p {
+    position: relative;
+    bottom: 200px;
+    font-size: 36px;
+    font-family: "Inconsolata", monospace;
+    color: #ffff;
+    max-width: 817px;
+    max-height: 532px;
 }
