@@ -36,7 +36,7 @@ a:hover {
     height: 8vh;
 }
 
-main {
+.Inicio {
     background: url(Images/Bg.png) no-repeat center center;
     background-size: cover;
     height: 92vh;
@@ -191,7 +191,7 @@ main {
 }
 
 .explicacao-jogo {
-    background: #06001f no-repeat center center;
+    background: #06001f;
     padding: 100px;
     display: flex;
     justify-content: center;
