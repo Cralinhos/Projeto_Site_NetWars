@@ -109,16 +109,17 @@ a:hover {
     background-size: cover;
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    padding-top: 100px;
 }
 
 .main-text {
-    padding: 80px;
+
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: white;
     max-width: 1200px;
@@ -240,26 +241,26 @@ a:hover {
     top: 60px;
     left: -100px;
     width: 2px;
-    height: 80px;
+    height: 60px;
     background-color: white;
     border-radius: 3px;
     transform: rotate(90deg);
 }
 
 .segundo .barra-vertical {
-    height: 100px;
+    height: 80px;
     top: 70px;
     left: -100px;
 }
 
 .terceiro .barra-vertical {
-    height: 80px;
+    height: 70px;
     top: 60px;
     left: -100px;
 }
 
 .quarto .barra-vertical {
-    height: 100px;
+    height: 75px;
     top: 70px;
     left: -100px;
 }
@@ -393,6 +394,10 @@ a:hover {
         display: flex;
     }
 
+    .Inicio {
+        padding-top: 80px;
+    }
+
     .titulo {
         font-size: 20px;
         padding: 10px;
@@ -503,6 +508,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .Inicio {
+        padding-top: 60px;
+    }
+    
     .main-text {
         padding: 30px 15px;
     }
@@ -531,6 +540,10 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+    .Inicio {
+        padding-top: 50px;
+    }
+    
     .titulo {
         font-size: 18px;
     }

@@ -154,46 +154,50 @@ a:hover {
     max-width: 1400px;
 }
 
+/* Barra vertical para seção 1 - Objetivo do Jogo (texto curto) */
 .primeiro::before {
     content: '';
     position: absolute;
     top: 14px;
     left: -28px;
     width: 2px;
-    height: 120px;
+    height: 80px;
     background-color: white;
     border-radius: 3px;
 }
 
+/* Barra vertical para seção 2 - Preparação Inicial (texto longo + 2 grupos de imagens) */
 .segundo::before {
     content: '';
     position: absolute;
     top: 14px;
     left: -28px;
     width: 2px;
-    height: 150px;
+    height: 600px;
     background-color: white;
     border-radius: 3px;
 }
 
+/* Barra vertical para seção 3 - Estrutura dos Turnos (texto longo + 1 grupo de imagens + lista) */
 .terceiro::before {
     content: '';
     position: absolute;
     top: 14px;
     left: -28px;
     width: 2px;
-    height: 130px;
+    height: 450px;
     background-color: white;
     border-radius: 3px;
 }
 
+/* Barra vertical para seção 4 - Cartas de Defesa (texto médio + 2 grupos de imagens) */
 .quarto::before {
     content: '';
     position: absolute;
     top: 14px;
     left: -28px;
     width: 2px;
-    height: 140px;
+    height: 500px;
     background-color: white;
     border-radius: 3px;
 }
