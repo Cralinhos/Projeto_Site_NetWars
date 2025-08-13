@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap (se houver no futuro)
+# Sitemap: https://seusite.com/sitemap.xml
+
+# Tempo de espera entre requisições (em segundos)
+Crawl-delay: 1
